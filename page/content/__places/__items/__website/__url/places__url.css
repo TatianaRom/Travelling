@@ -1,0 +1,44 @@
+.places__url{
+max-width: 484px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+text-decoration-line: underline;
+color: #FFFFFF;
+opacity: 1;
+transition: opacity 0.1s linear 0.3s;
+}
+.places__url:hover{
+opacity: 0.3;
+}
+@media screen and (max-width: 1024px){
+    .places__url{
+    width: 100%;
+    font-size: 18px; 
+    line-height: 30px;
+      }
+    }
+    @media screen and (max-width: 768px){
+      .places__url{
+        font-size: 18px;
+        line-height: 30px;
+        padding-top: 32px;
+   
+        }
+      }
+      @media screen and (max-width: 454px){
+        .places__url{
+        width: 90%;
+        font-size: 12px; 
+     
+          }
+        }
+    @media screen and (max-width: 410px){
+      .places__url{
+      width: 100%;
+      font-size: 0.7em; 
+   
+        }
+      }

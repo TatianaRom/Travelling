@@ -1,0 +1,77 @@
+@import url('./__links/footer__links.css');
+@import url('./__content-copyright/footer__content-copyright.css');
+
+.footer{
+  position: relative;
+  width: 82.2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12%;
+  margin-bottom: 32px;
+  }
+ @media screen and (max-width: 1344px){
+  .footer{
+   width: 92.5%;
+   }
+}
+ @media screen and (max-width: 1280px){
+  .footer{
+   width: 92.5%;
+   margin-top: 172px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .footer{
+    width: 90.8%;
+    margin-top: 158px;
+    }
+  }
+
+@media screen and (max-width: 768px){
+  .footer{
+  width: 94%;
+  margin-top: 100px;
+  margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 665px){
+  .footer{
+  width: 95%;
+  }
+}
+@media screen and (max-width: 550px){
+  .footer{
+  width: 91.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 64px;
+  }
+}
+@media screen and (max-width: 375px){
+  .footer{
+  width: 91.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 64px;
+  }
+}
+@media screen and (max-width: 320px){
+  .footer{
+  width: 91%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  }
+}

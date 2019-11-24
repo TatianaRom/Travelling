@@ -1,0 +1,51 @@
+.video__duration{
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 13px;
+letter-spacing: 0.3em;
+z-index: 1;
+color: #FFFFFF;
+opacity: 1;
+transition: opacity 0.1s linear 0.2s;
+}
+.video__duration:hover{
+opacity: 0.3;
+}
+
+@media screen and (max-width: 1024px){
+    .video__duration{
+    max-width: 100%;
+
+    }
+}
+@media screen and (max-width: 768px){
+    .video__duration{
+width: 12px;
+   
+    }
+}
+@media screen and (max-width: 574px){
+    .video__duration{
+font-size: 8px;
+   
+    }
+}
+
+@media screen and (max-width: 375px){
+    .video__duration{
+font-size: 12px;
+font-weight: 500;
+line-height: 13px;
+   
+    }
+}
+@media screen and (max-width: 320px){
+    .video__duration{
+font-size: 12px;
+font-weight: 500;
+line-height: 13px;
+   
+    }
+}

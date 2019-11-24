@@ -1,0 +1,55 @@
+.video__icon{
+position: relative;
+margin-top: 30px;
+margin-left: -553px;
+height: 7%;
+width: 7%;
+z-index: 1;
+opacity: 1;
+transition: opacity 0.1s linear 0.2s;
+}
+.video__icon:hover{
+opacity: 0.3;
+}
+@media screen and (max-width: 1435px){
+    .video__icon{
+    margin-left: -93.5%;
+    width: 9%;
+
+    }
+}
+@media screen and (max-width: 1024px){
+    .video__icon{
+    margin-left: -93.5%;
+    width: 9%;
+
+    }
+}
+@media screen and (max-width: 768px){
+    .video__icon{
+    margin-left: -94%;
+    width: 12%;
+    margin-top: 25px;
+  
+    }
+}
+@media screen and (max-width: 375px){
+    .video__icon{
+        width: 12%;
+            
+    }
+}
+@media screen and (max-width: 351px){
+    .video__icon{
+        width: 12%;
+        margin-top: 10px;      
+    }
+}
+
+@media screen and (max-width: 320px){
+    .video__icon{
+        width: 14%;
+        margin-top: 16px;      
+    }
+}
+

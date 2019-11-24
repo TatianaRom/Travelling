@@ -1,0 +1,34 @@
+@import url('./__paragraph/places__paragraph.css');
+@import url('./__text/places__text.css');
+
+
+.places__description{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin-left: 8px;
+margin-top: 2px;
+
+}
+@media screen and (max-width: 768px){
+  .places__description{
+  margin-top: -13px;
+ 
+    }
+  }
+  
+  
+@media screen and (max-width: 375px){
+    .places__description{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    margin-right: auto;
+    margin-top: 6px;
+   
+      }
+    }
+    

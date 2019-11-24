@@ -1,0 +1,106 @@
+@import url('./__icon/footer__icon.css');
+@import url('./__link/footer__link.css');
+
+.footer__links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: calc((223% - 18px)/4);
+    
+}
+
+@media screen and (max-width: 1344px){
+  .footer__links{
+    width: calc((223% - 18px)/4);
+
+  }
+}
+@media screen and (max-width: 1187px){
+  .footer__links{
+  width: calc((200% - 18px)/4);
+  }
+}
+
+@media screen and (max-width: 1280px){
+    .footer__links{
+    width: calc((223% - 18px)/4);
+    }
+  }
+  @media screen and (max-width: 1160px){
+    .footer__links{
+    width: calc((270% - 18px)/4);
+    
+    }
+  }
+  @media screen and (max-width: 1078px){
+    .footer__links{
+    width: calc((300% - 18px)/4);
+    
+    }
+  }
+  @media screen and (max-width: 1024px){
+    .footer__links{
+      width: calc((287% - 18px)/4);
+    }
+  }
+  @media screen and (max-width: 992px){
+    .footer__links{
+   width: 65%;
+    
+    }
+  }
+  @media screen and (max-width: 802px){
+    .footer__links{
+   width: 75%;
+    
+    }
+  }
+  @media screen and (max-width: 768px){
+    .footer__links{
+    width: calc((255% - 18px)/4);
+   
+    }
+  }
+  @media screen and (max-width: 704px){
+    .footer__links{
+    width: calc((270% - 18px)/4);
+    }
+  }
+  @media screen and (max-width: 622px){
+    .footer__links{
+    width: calc((290% - 18px)/4);
+    }
+  }
+  @media screen and (max-width: 550px){
+    .footer__links{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-wrap: wrap;
+     
+        }
+  }
+  @media screen and (max-width: 375px){
+    .footer__links{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-wrap: wrap;
+     
+        }
+  }
+  @media screen and (max-width: 320px){
+    .footer__links{
+      width: 200%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-wrap: wrap;
+     }
+  }
+  

@@ -1,0 +1,37 @@
+.comments__content-subtitle{
+    max-width: 640px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size:  24px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 1;
+    margin-top: -1%; 
+}
+@media screen and (max-width: 1024px){
+    .comments__content-subtitle{
+      margin-top: -12px;
+ }
+}
+@media screen and (max-width: 768px){
+    .comments__content-subtitle{
+        font-size: 24px;
+        line-height: 35px;
+ }
+}
+@media screen and (max-width: 375px){
+    .comments__content-subtitle{
+        width: 100%;
+        font-size: 16px;
+        line-height: 23px;
+ }
+}
+@media screen and (max-width: 320px){
+    .comments__content-subtitle{
+        width: 100%;
+        font-size: 16px;
+        line-height: 23px;
+ }
+}

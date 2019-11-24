@@ -1,0 +1,47 @@
+@import url('./__items/image__item.css');
+
+.image{
+   display: grid;
+   width: 100%; 
+   grid-template-columns: auto auto auto auto;
+   grid-row-gap: 16px;
+   grid-column-gap: 16px; 
+   margin: auto;
+}
+@media screen and (max-width: 1024px){
+   .image{
+       width: 100%;
+       display: grid;
+       grid-template-columns: auto auto auto;
+       grid-row-gap: 14px;
+       grid-column-gap: 14px; 
+    }
+}
+@media screen and (max-width: 768px){
+   .image{
+       width: 100%;
+       display: grid;
+       grid-template-columns: auto auto;
+       grid-row-gap: 16px;
+       grid-column-gap: 16px; 
+    }
+}
+@media screen and (max-width: 375px){
+   .image{
+       width: 100%;
+       display: grid;
+       grid-template-columns: auto;
+       grid-row-gap: 15px;
+       
+    }
+}
+@media screen and (max-width: 320px){
+   .image{
+       width: 100%;
+       display: grid;
+       grid-template-columns: auto;
+       grid-row-gap: 8px;
+       
+    }
+}
+    

@@ -1,0 +1,42 @@
+.comments__quote{
+width: 98%; 
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+color: #FFFFFF;
+z-index: 1;
+margin-top: 10.5%; 
+}
+@media screen and (max-width: 768px){
+    .comments__quote{
+        font-size: 16px;
+        line-height: 23px;
+        text-align: left;
+        order: 3;
+        margin-top: 24px;
+        width: 100%;
+               
+    }
+}
+
+@media screen and (max-width: 375px){
+    .comments__quote{
+        font-size: 16px;
+        line-height: 23px;
+        margin-top: 24px;
+        width: 100%;
+        text-align: left;
+        
+    }
+}
+@media screen and (max-width: 320px){
+    .comments__quote{
+        font-size: 16px;
+        line-height: 23px;
+        width: 100%;
+        text-align: left;
+        
+    }
+}

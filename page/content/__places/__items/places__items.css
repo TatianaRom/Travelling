@@ -1,0 +1,62 @@
+@import url('./__image/places__image.css');
+@import url('./__description/places__description.css');
+@import url('./__title/places__title.css');
+@import url('./__website/places__website.css');
+
+.places__items{
+width: 100%;
+display: grid;
+grid-template-columns: 50% 50%;
+padding-bottom: 72px;
+}
+.places__items:nth-child(3){
+grid-column-start: 3;
+}
+.places__items:nth-child(5){
+  grid-column-start: 3;
+  padding-bottom: 0;
+    }
+
+ @media screen and (max-width: 1024px){
+      .places__items:nth-child(2){
+        padding-bottom: 42px;
+      
+       }
+      .places__items:nth-child(1){
+        padding-bottom: 42px;
+      }
+    }
+    @media screen and (max-width: 768px){
+          .places__items:nth-child(1){
+          padding-bottom: 75px;
+         }
+         .places__items:nth-child(2){
+          padding-bottom: 80px;
+         }
+         .places__items:nth-child(3){
+          padding-bottom: 87px;
+         }
+      }
+    
+
+@media screen and (max-width: 375px){
+    .places__items{
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto;
+      grid-row-gap: 2%;
+    }
+    .places__items:nth-child(2){
+      padding-bottom: 68px;
+     }
+     .places__items:nth-child(3){
+      padding-bottom: 66px;
+     }
+     .places__items:nth-child(4){
+      padding-bottom: 64px;
+     }
+     .places__items:nth-child(1){
+      padding-bottom: 68px;
+     }
+
+  }

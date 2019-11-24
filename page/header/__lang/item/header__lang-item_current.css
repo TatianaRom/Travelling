@@ -1,0 +1,18 @@
+.header__lang-item_current{
+    text-decoration-line: underline;
+    padding-right: 18px;
+    
+}
+@media screen and (max-width: 768px){
+    .header__lang-item_current{
+          padding-right: 18px;
+         
+         }
+      }    
+    
+@media screen and (max-width: 375px){
+.header__lang-item_current{
+      padding-right: 16px;
+     }
+  }
+  

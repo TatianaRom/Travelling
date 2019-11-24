@@ -1,0 +1,36 @@
+.comments__content-title{
+    max-width: 800px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 65px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 1;
+    margin-top: 0;
+    }
+    @media screen and (max-width: 768px){
+        .comments__content-title{
+        width: 90%;
+         font-size: 42px;
+         line-height: 46px;
+         font-weight: 900;
+     }
+    }
+    @media screen and (max-width: 375px){
+        .comments__content-title{
+            width: 100%;
+            font-size: 32px;
+            line-height: 35px;
+            font-weight: 900;
+     }
+    }
+    @media screen and (max-width: 320px){
+        .comments__content-title{
+            width: 100%;
+            font-size: 32px;
+            line-height: 35px;
+            font-weight: 900;
+     }
+    }

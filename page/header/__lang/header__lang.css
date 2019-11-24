@@ -1,0 +1,12 @@
+@import url('./item/header__lang-item.css');
+@import url('./item/header__lang-item_current.css');
+
+
+.header__lang{
+display: flex;
+flex-direction: row;
+justify-content: right;
+margin-top: 5px; 
+}
+
+

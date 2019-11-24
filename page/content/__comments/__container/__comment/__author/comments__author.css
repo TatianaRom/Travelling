@@ -1,0 +1,33 @@
+.comments__author{
+width: 100%;
+font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 24px;
+color: #FFFFFF;
+z-index: 1;
+margin-top: 6%; 
+margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px){
+    .comments__author{
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 900;
+        text-align: center;
+        margin-top: 16px;
+        order: 2;
+    }
+}
+@media screen and (max-width: 375px){
+    .comments__author{
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 900;
+        text-align: center;
+      
+    }
+}
+    

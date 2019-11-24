@@ -1,0 +1,29 @@
+.video__bg{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.5;
+    transition: opacity 0.1s linear 0.2s;
+}
+.video__bg:hover{
+opacity: 0.3;
+}
+@media screen and (max-width: 480px){
+    .video__bg{
+        margin-bottom: 2%;
+       }
+    }
+    
+@media screen and (max-width: 375px){
+.video__bg{
+    width: 100%;
+    margin-bottom: 2%;
+   }
+}
+@media screen and (max-width: 320px){
+    .video__bg{
+        width: 100%;
+        min-height: 192px;
+       }
+    }
+    

@@ -1,0 +1,7 @@
+.places__list-item{
+    list-style: none;
+}
+.places__list-item:nth-child(2){
+    list-style: none;
+    padding-top: 9px;
+}

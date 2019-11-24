@@ -1,0 +1,33 @@
+.places__text{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+color: #FFFFFF;
+max-width: 484px;
+margin-left: 0;
+margin-top: 2.5%; 
+}
+
+@media screen and (max-width: 1024px){
+    .places__text{
+    width: 100%;
+    font-size: 18px; 
+    line-height: 30px;
+      }
+    }
+    @media screen and (max-width: 768px){
+      .places__text{
+      font-size: 16px; 
+      line-height: 27px;
+        }
+      }
+    @media screen and (max-width: 375px){
+      .places__text{
+      width: 92%;
+      font-size: 16px; 
+      line-height: 169.43%;
+        }
+      }
+      

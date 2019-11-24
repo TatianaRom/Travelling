@@ -1,0 +1,50 @@
+@import url('./__content-caption/lead__content-caption.css');
+@import url('./__content-image/lead__content-image.css');
+@import url('./__content-logo/lead__content-logo.css');
+@import url('./__content-subtitle/lead__content-subtitle.css');
+@import url('./__title/lead__title.css');
+@import url('./__link/lead__link.css');
+
+.lead{
+    position: relative;
+    width: 68.4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 47px;
+    z-index: 0;
+     }
+   @media screen and (max-width: 1280px){
+    .lead{
+    width: 77%;
+    }
+}
+ 
+@media screen and (max-width: 1024px){
+    .lead{
+    width: 90.5%;
+    }
+}
+@media screen and (max-width: 768px){
+    .lead{
+    width: 100%;
+    margin-top: 47px;
+    margin-left: auto;
+    margin-right: auto;
+     }
+}
+@media screen and (max-width: 375px){
+    .lead{
+    width: 100%;
+    margin-top: 38px;
+     }
+}
+@media screen and (max-width: 320px){
+    .lead{
+    width: 100%;
+     }
+}
